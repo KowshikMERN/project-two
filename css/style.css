@@ -1,0 +1,1016 @@
+/* COMMON CSS START */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height:0.8;
+}
+.container{
+    width:1320px;
+    margin:0 auto;
+}
+ul,li{
+    list-style: none;
+}
+/* COMMON CSS END */
+
+
+/* NAVBAR CSS START */
+.navbar{
+    background: #160C6D;
+    position: absolute;
+    z-index: 999;
+    width:100%;
+    opacity: 0.6;
+    position:fixed;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    /* padding-right: var(--bs-navbar-nav-link-padding-x); */
+    /* padding-left: var(--bs-navbar-nav-link-padding-x); */
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#fff;
+    transition: all linear 0.2s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#1BBF00;
+}
+.nav-button button{
+    border-radius: 100px;
+    padding:14px 28px;
+    background:#1BBF00;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border:2px solid #1BBF00;
+    transition: all linear 0.3s;
+}
+.nav-button button:hover{
+    color:rgb(243, 251, 7);
+    background: transparent;
+}
+/* NAVBAR CSS END */
+
+/* banner CSS START */
+#banner{
+    background:url(../image/banner.jpg);
+    padding:246px 0 254px 0;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+#banner:after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: rgba(106, 98, 197, 0.78);
+    z-index: -1;
+}
+#banner .icon-left{
+    position: absolute;
+    top:304px;
+    left:31px;
+}
+#banner .icon-right{
+    position: absolute;
+    top:800px;
+    left:1480px;
+}
+#banner .banner-detailes h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 100px;
+    color:#FAFAFE;
+    text-align: center;
+    text-transform: capitalize;
+}
+#banner .banner-detailes p{
+    font-family: 'Paprika', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    line-height:40px;
+    color:#E6E5F3;
+    width:715px;
+    margin:0 auto;
+}
+#banner .banner-detailes .one{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#fff;
+    padding:20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border:2px solid#1BBF00;
+    margin-top: 16px;
+    margin-right: 14px;
+    transition: all linear 0.3s;
+}
+#banner .banner-detailes .one:hover{
+    background: transparent;
+}
+#banner .banner-detailes .two{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #F9F9F9;
+    margin-left: 14px;
+    padding:20px 40px;
+    border: 2px solid #1BBF00;
+    border-radius: 100px;
+    background:none;
+    transition: all linear 0.3s;
+}
+#banner .banner-detailes .two:hover{
+    background:#1BBF00;
+}
+/* banner CSS END */
+
+/* COUNTER CSS START */
+#counter{
+    padding:283px 0 282px 0;
+    position: relative;
+    z-index: 3;
+}
+#counter::after{
+    content: '';
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: #F9F9FB;
+    z-index: -3;
+}
+#counter .counter-image{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.row .demo h2{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 68px;
+    color: #1BBF00;
+}
+.row .demo p{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #141135;
+    padding-top:24px;
+}
+.row .kowshik h2{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 68px;
+    color: #1BBF00;
+}
+.row .kowshik p{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #141135;
+    padding-top:24px;
+}
+.row .demo{
+    border-right: 2px solid rgba(151, 162, 170, 0.709);
+}
+/* COUNTER CSS END */
+
+/* CHOOSE CSS START */
+#choose{
+    padding:100px 0 91px 0;
+    position: relative;
+}
+.choose-image{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.choose-left{
+    display: flex;
+    align-items:center;
+    transition: all linear 0.3s;
+}
+.choose-icon{
+    margin-left: 28px;
+}
+.choose-left:hover{
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 12px;
+    padding:42px 146px 42px 0px;
+    background: #FFFFFF;
+}
+.choose-left .choose-icon{
+    height:25px;
+    width:25px;
+    background:#1BBF00;
+    border-radius: 50%;
+    position: relative;
+}
+.choose-left .choose-icon::after{
+    content: '';
+    position: absolute;
+    height:25px;
+    width:25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+    top:0;
+    left:12.5px;
+}
+.choose-left p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width:319px;
+    margin-left: 37px;
+}
+.choose-right{
+    margin-left: 135px;
+}
+.choose-right h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+}
+.choose-right p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    color: #726E9E;
+    width: 393px;
+    margin-top: 9px;
+    margin-bottom: 41px;
+}
+.choose-right button{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F9F9F9;
+    padding:20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border:3px solid #1BBF00;
+    transition: all linear 0.5s;
+}
+.choose-right button:hover{
+    background:transparent;
+    color:#0116ff;
+}
+/* CHOOSE CSS END */
+/* COURCE CSS START */
+#cource{
+    padding:100px 0 70px 0;
+    background: #F6F5FF;
+}
+.do h3{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+}
+.do p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #6C7D93;
+    margin-top: 20px;
+    margin-bottom: 56px;
+    width:350px;
+}
+.do do-button a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding:20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+}
+.servic{
+    padding:50px 0;
+    background: #fff;
+    border-radius: 20px;
+    transition: all linear 0.4s;
+    margin-bottom: 30px;
+}
+
+.servic h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #141135;
+    transition: all linear 0.4s;
+}
+.servic p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    transition: all linear 0.4s;
+}
+.servic .servic-button a{
+    padding: 8px 10px;
+    border-radius:100px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    position: relative;
+    overflow: hidden;
+    transition: all linear 0.4s;
+}
+.servic .servic-button a::after{
+    content: '';
+    position: absolute;
+    background: #1BBF00;
+    opacity: 0.3;
+    top:0;
+    left:85px;
+    height:100%;
+    width:100%;
+    border-radius: 0 100px 100px 0;
+    transition: all linear 0.4s;
+}
+.servic:hover{
+    padding:50px 0;
+    background: #6B62C5;
+    border-radius: 20px;  
+}
+.servic:hover h3{
+    color:#fff;
+}
+.servic:hover p{
+    color:#fff;
+}
+.servic:hover .servic-button a{
+    color:#fff;
+}
+.servic:hover .servic-button a::after{
+    left:0;
+}
+.servic .web-detailes h3{
+    margin:32px 0 16px 0;
+}
+.servic .web-detailes p{
+    width:257px;
+    margin:0 auto;
+}
+.servic .web-detailes a{
+    margin-top: 20px;
+}
+.servic .software-detailes h3{
+    margin:32px 0 1px 0;
+}
+.servic .software-detailes p{
+    width:278px;
+    margin:0 auto;
+}
+.servic .software-detailes a{
+    margin-top: 5px;
+}
+.servic .content-detailes h3{
+    margin:32px 0 16px 0;
+}
+.servic .content-detailes p{
+    width:297px;
+    margin:0 auto;
+}
+.servic .content-detailes a{
+    margin-top: 20px;
+}
+.servic .Digital-detailes h3{
+    margin:32px 0 16px 0;
+}
+.servic .Digital-detailes p{
+    width:297px;
+    margin:0 auto;
+}
+.servic .Digital-detailes a{
+    margin-top: 20px;
+}
+.servic .support-detailes h3{
+    margin:32px 0 1px 0;
+}
+.servic .support-detailes p{
+    width:278px;
+    margin:0 auto;
+}
+.servic .support-detailes a{
+    margin-top: 5px;
+}
+
+/* COURCE CSS END */
+
+/* creat CSS START */
+#impact{
+    padding:100px 0;
+    position: relative;
+}
+#impact .image-detailes img{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.row-detailes h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #141135;
+    margin-bottom: 23px;
+}
+.row-detailes p {
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width:558px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+.impact-left{
+    margin-top: 75px;
+}
+.Competitive-detailes{
+    display: flex;
+}
+.Competitive-detailes .competitive-text{
+    margin-left: 35px;
+}
+.Competitive-detailes h5 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #141135;
+    margin-bottom: 0;
+}
+.Competitive-detailes p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    width:343px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.strategy-detailes{
+    display: flex;
+    margin-top: 40px;
+}
+.strategy-detailes .strategy-text{
+    margin-left: 32px;
+}
+.strategy-detailes .strategy-text h5 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #141135;
+    margin-bottom: 0;
+}
+.strategy-detailes .strategy-text p{
+    margin-top: 5px;
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #726E9E;
+    width: 309px;
+}
+.impect-right{
+    margin-top: 50px;
+    left:0;
+}
+/* creat CSS END */
+
+/* plan CSS START */
+#plan{
+    padding: 100px 0;
+    background: #F9F9FB;
+}
+.container-plan h4{   
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 48px;
+color: #141135;
+margin-bottom: 64px;
+}
+.plan-item{
+    padding: 60px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 20px;
+    position: relative;
+    transition: all linear 0.4s;
+}
+
+.plan-item-one h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #141135;
+    transition: all linear 0.4s;
+}
+
+.plan-item-one img{
+    width:100%;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+.plan-item-one .dolar {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 24px;
+    color: #1BBF00;
+    position: absolute;
+    top: 325px;
+    left: 150px;
+}
+.plan-item-one .count{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 48px;
+    color: #1BBF00;
+}
+.plan-item-one p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #726E9E;
+    width: 252px;
+    margin: 0 auto;
+    margin-top: 12px;
+    transition: all linear 0.4s;
+}
+.plan-item:hover{
+    padding: 60px 0;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+    border-radius: 20px;
+    position: relative;
+    background: #6B62C5;
+}
+.plan-item:hover h5{
+    color:#fff;
+}
+.plan-item:hover p{
+    color:#fff;
+}
+.plan-item-two h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #141135;
+    transition: all linear 0.4s;
+}
+
+.plan-item-two img{
+    width:100%;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+.plan-item-two .dolar {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 24px;
+    color: #1BBF00;
+    position: absolute;
+    top: 325px;
+    left: 150px;
+}
+.plan-item-two .count{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 48px;
+    color: #1BBF00;
+}
+.plan-item-two p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #726E9E;
+    width: 252px;
+    margin: 0 auto;
+    margin-top: 12px;
+    transition: all linear 0.4s;
+}
+.plan-item-three h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #141135;
+    transition: all linear 0.4s;
+}
+
+.plan-item-three img{
+    width:100%;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+.plan-item-three .dolar {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 24px;
+    color: #1BBF00;
+    position: absolute;
+    top: 325px;
+    left: 150px;
+}
+.plan-item-three .count{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 48px;
+    color: #1BBF00;
+}
+.plan-item-three p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #726E9E;
+    width: 252px;
+    margin: 0 auto;
+    margin-top: 12px;
+    transition: all linear 0.4s;
+}
+/* plan CSS END */
+
+/* about us CSS START */
+#about{
+    padding:100px 0;
+    background: #F8F8FF;
+    position: relative;
+}
+#about .container-heading h3{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+    margin-bottom: 152px;
+}
+#about .box-detailes{
+    background: #FFFFFF;
+    box-shadow: -15px 30px 50px rgba(171, 175, 199, 0.301961);
+    border-radius: 20px;
+    padding:120px 0 56px 0;
+}
+#about .box-detailes .box-icon{
+    color: #FF7628;
+    margin-bottom: 33px;
+}
+#about .box-detailes .middle-text{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #726E9E;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+#about .box-detailes h4{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 25px;
+    color: #221A2C;
+}
+#about .box-detailes .yes{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 16px;
+    color: #726E9E;
+    margin-top: 20px;
+}
+#about .img-man{
+    position: relative;
+}
+#about .img-man img{
+    position: absolute;
+    left: 50%;
+    top:-100px;
+    transform: translate(-50%);
+}
+#about .angle-detailes{
+    display: flex;
+    width:1408px;
+    justify-content: space-between;
+    position: absolute;
+    top:516px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+#about .angle-left{
+    padding: 11px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background: #1BBF00;
+    opacity: 0.2;
+    position: relative;
+}
+#about .angle-left i{
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#about .angle-right{
+    padding: 11px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background: #1BBF00;
+    position: relative;
+}
+#about .angle-right i{
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+/* about us CSS END */
+/* like CSS START */
+#like{
+    padding:100px 0;
+    background: #F9F9FB;
+    position: relative;
+}
+#like img{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+#like .like-detailes h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    color: #030314;
+    margin-bottom: 64px;
+}
+#like .panama-box{
+    height:220px;
+    width:379px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    margin-right: 80px;
+}
+#like .panama{
+    display: flex;
+    margin-bottom: 60px;
+}
+#like .panama-right .p-text{
+    display: flex;
+}
+#like .panama-right .p-text .news{
+    margin-right: 35px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    transition: all linear 0.2s;
+}
+#like .panama-right .p-text .news:hover{
+    color: #1BBF00;
+}
+#like .panama-right .p-text .by{
+    margin-right: 8px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    transition: all linear 0.2s;
+}
+#like .panama-right .p-text .by:hover{
+    color: #1BBF00;
+}
+#like .panama-right .p-text .tomas{
+    margin-right: 24px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    transition: all linear 0.2s;
+}
+#like .panama-right .p-text .tomas:hover{
+    color: #1BBF00;
+}
+#like .panama-right .p-text .posted-text{
+    margin-right: 12px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    transition: all linear 0.2s;
+}
+#like .panama-right .p-text .posted-text:hover{
+    color: #1BBF00;
+}
+#like .panama-right .p-text .ago{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    color: #726E9E;
+    transition: all linear 0.2s;
+}
+#like .panama-right .p-text .ago:hover{
+    color: #1BBF00;
+}
+#like .panama-right .heading-text h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #141135;
+    width: 504px;
+    margin-top: 16px;
+}
+#like .panama-right .panama-button a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+   
+}
+#like .panama-right .panama-button a{
+    padding: 8px 10px;
+    margin-top: 24px;
+    border-radius: 100px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    position: relative;
+    overflow: hidden;
+}
+#like .panama-right .panama-button a::after{
+    content: '';
+    position: absolute;
+    background: #1BBF00;
+    opacity: 0.3;
+    border-radius: 0px 100px 100px 0px;
+    top:0;
+    left: 85px;
+    height:100%;
+    width:100%;
+    transition: all linear 0.4s;
+}
+#like .panama-right .panama-button a:hover::after{
+    left:0;   
+}
+
+/* like CSS END */
+/* footer CSS START */
+#footer{
+    padding: 140px 0 57px 0;
+    background: #48409C;
+}
+#footer .footer-detailes{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-left p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    opacity: 0.9;
+    width: 500px;
+    margin-top: 44px;
+}
+#footer .footer-left .innovate{
+    margin-top: 189px;
+}
+/* #footer .footer-detailes .footer-right{
+    align-items:space-between ;
+} */
+#footer .footer-detailes .footer-right .d-list{
+    display: flex;
+}
+#footer .footer-detailes .Features dt{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+#footer .footer-detailes .Features dd{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin: 30px 0;
+}
+#footer .footer-detailes .Products{
+  margin-left: 100px;
+}
+#footer .footer-detailes .Products dt{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+#footer .footer-detailes .Products dd{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin: 30px 0;
+}
+#footer .footer-detailes .Support{
+    margin-left: 100px;
+}
+#footer .footer-detailes .Support dt{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin-bottom: 48px;
+}
+#footer .footer-detailes .Support dd{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FEFEFE;
+    margin: 30px 0;
+}
+#footer .footer-detailes .right-bottom{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 50px;
+}
+#footer .footer-detailes .right-bottom p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FEFEFE;  
+    opacity: 0.9;
+}
+#footer .footer-detailes .right-bottom .Privacy{
+   margin-right: 60px;
+}
+/* footer CSS END */
+/* COMMON CSS START */
+/* COMMON CSS END */
